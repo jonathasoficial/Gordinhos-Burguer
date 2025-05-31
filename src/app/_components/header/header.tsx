@@ -1,15 +1,21 @@
 import Image from "next/image";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
+import timezone from "dayjs/plugin/timezone";
+
+// Ativa os plugins
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 export default function Header() {
 
     const isOpen = () => {
-        const now = new Date();
-        const day = now.getDay();
-        const hour = now.getHours();
-        const minute = now.getMinutes();
+        const now = dayjs().tz('America/Sao_Paulo');
+        const day = now.day();
+        const hour = now.hour();
+        const minute = now.minute();
 
         const isOpenDay = day >= 2 && day <= 6;
-
         const afterOpen = hour > 18 || (hour === 18 && minute >= 30);
         const beforeClose = hour < 23 || (hour === 23 && minute === 0);
 
