@@ -2,16 +2,19 @@ import Image from "next/image";
 
 export default function Header() {
 
-    const IsOpen = () => {
-        const now = new Date()
-        const currentHour = now.getHours()
-        const currentMinute = now.getMinutes()
+    const isOpen = () => {
+        const now = new Date();
+        const day = now.getDay();
+        const hour = now.getHours();
+        const minute = now.getMinutes();
 
-        const afterOpen = currentHour > 18 || (currentHour === 18 && currentMinute >= 30)
-        const beforeClose = currentHour < 23 || (currentHour === 23 && currentMinute === 0)
+        const isOpenDay = day >= 2 && day <= 6;
 
-        return afterOpen && beforeClose
-    }
+        const afterOpen = hour > 18 || (hour === 18 && minute >= 30);
+        const beforeClose = hour < 23 || (hour === 23 && minute === 0);
+
+        return isOpenDay && afterOpen && beforeClose;
+    };
 
     return (
         <header className="w-full h-[420px] bg-slate-900 bg-header">
@@ -33,12 +36,12 @@ export default function Header() {
                     Rua Francisco Xavier Ribeiro, 62 - Bairro Chesf
                 </span>
 
-                <div className={`px-4 py-1 rounded-lg mt-5 ${IsOpen() ? 'bg-green-600' : 'bg-red-600'}`}>
+                <div className={`px-4 py-1 rounded-lg mt-5 ${isOpen() ? 'bg-green-600' : 'bg-red-600'}`}>
                     <span className="text-white font-medium">
-                        Ter á Sab - 18:30 ás 23:00
+                        Ter á Sáb - 18:30 às 23:00
                     </span>
                 </div>
             </div>
-        </header >
-    )
+        </header>
+    );
 }
