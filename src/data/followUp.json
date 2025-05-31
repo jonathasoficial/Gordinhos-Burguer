@@ -1,0 +1,22 @@
+{
+    "acompanhamentos": [
+        {
+            "id": 8,
+            "name": "Batata Frita 100g",
+            "price": 7.00,
+            "image": "/x-bacon_turbo.png"
+        },
+        {
+            "id": 9,
+            "name": "Batata Frita 500g",
+            "price": 10.00,
+            "image": "/x-bacon_turbo.png"
+        },
+        {
+            "id": 10,
+            "name": "Batata Frita queijo e bacon",
+            "price": 15.00,
+            "image": "/x-bacon_turbo.png"
+        }
+    ]
+}

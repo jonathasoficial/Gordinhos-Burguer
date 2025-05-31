@@ -1,0 +1,55 @@
+{
+    "hamburguerSimples": [
+        {
+            "id": 1,
+            "name": "Hamburguer da Casa",
+            "description": "Alface, tomate, Hamburguer 100g, queijo cheddar, bacon e maiones de alho",
+            "price": 20.00,
+            "image": "/x-bacon_turbo.png"
+        },
+        {
+            "id": 2,
+            "name": "Smash Burguer",
+            "description": "Hamburguer 100g, queijo cheddar, cebola caramelizada, farofa de bacon e maionese de alho",
+            "price": 22.00,
+            "image": "/x-bacon_turbo.png"
+        },
+        {
+            "id": 3,
+            "name": "X-Bacon",
+            "description": "Alface, tomate, Hamburguer 100g, presunto, musarela, bacon e maionese de alho",
+            "price": 22.00,
+            "image": "/x-bacon_turbo.png"
+        },
+        {
+            "id": 4,
+            "name": "Gordinho Simples",
+            "description": "Alface, tomate, hsmburguer 100g, queijo musarela, queijo chedda, molho especial, cebola caramelizada e maionese de alho",
+            "price": 24.00,
+            "image": "/x-bacon_turbo.png"
+        }
+    ],
+    "hamburguerEspecial": [
+        {
+            "id": 5,
+            "name": "X-Bacon Turbo",
+            "description": "Alface, tomate, duplo bacon, 2 hamburgues 100g, queijo cheddar",
+            "price": 26.00,
+            "image": "/x-bacon_turbo.png"
+        },
+        {
+            "id": 6,
+            "name": "Smash Duplo",
+            "description": "2 hamburgues 100g, queijo cheddar, cebola caramelizada, farofa de bacon ",
+            "price": 28.00,
+            "image": "/x-bacon_turbo.png"
+        },
+        {
+            "id": 7,
+            "name": "Maximo Gordinho",
+            "description": "Alface, tomate, 2 carnes de 180g, queijo mussarela, queijo cheddar, bacon duplo, ",
+            "price": 30.00,
+            "image": "/x-bacon_turbo.png"
+        }
+    ]
+}

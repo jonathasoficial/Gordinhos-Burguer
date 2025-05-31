@@ -1,0 +1,18 @@
+{
+    "latinhas": [
+        {
+            "id": 11,
+            "name": "pepsi",
+            "description": "pepsi lata 500ml",
+            "price": 5.00,
+            "image": "/latinha-pepsi.png"
+        },
+        {
+            "id": 12,
+            "name": "Antartica",
+            "description": "Antartica lata 500ml",
+            "price": 5.00,
+            "image": "/latinha-antartica.png"
+        }
+    ]
+}
