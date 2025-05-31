@@ -1,22 +1,18 @@
 import Image from "next/image";
-import dayjs from "dayjs";
-import utc from "dayjs/plugin/utc";
-import timezone from "dayjs/plugin/timezone";
-
-dayjs.extend(utc);
-dayjs.extend(timezone);
 
 export default function Header() {
-
     const isOpen = () => {
-        const now = dayjs().tz('America/Sao_Paulo');
-        const day = now.day();
-        const hour = now.hour();
-        const minute = now.minute();
+        const now = new Date();
 
+        const day = now.getUTCDay();
+        const hour = now.getUTCHours();
+        const minute = now.getUTCMinutes();
+
+        const brasilHour = (hour - 3 + 24) % 24;
         const isOpenDay = day >= 2 && day <= 6;
-        const afterOpen = hour > 18 || (hour === 18 && minute >= 30);
-        const beforeClose = hour < 23 || (hour === 23 && minute === 0);
+
+        const afterOpen = brasilHour > 18 || (brasilHour === 18 && minute >= 30);
+        const beforeClose = brasilHour < 23 || (brasilHour === 23 && minute === 0);
 
         return isOpenDay && afterOpen && beforeClose;
     };
