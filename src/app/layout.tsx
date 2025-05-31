@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Gordinhos Burguer",
   description: "Venha e aproveite esse sabor!",
+  icons: {
+    icon: "/favicon.png"
+  }
 };
 
 export default function RootLayout({
