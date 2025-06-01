@@ -54,7 +54,6 @@ export default function Header() {
 
                 <div className={`px-4 py-1 rounded-lg mt-5 ${isOpen ? 'bg-green-600' : 'bg-red-600'}`}>
                     <span className="text-white font-medium">
-                        {isOpen ? 'Estamos abertos!' : 'Estamos fechados!'}<br />
                         Ter à Sáb - 18:30 às 23:00
                     </span>
                 </div>
