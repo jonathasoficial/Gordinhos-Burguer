@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 Gordinhos Burguer
 
-## Getting Started
+Sistema de gestão para hamburguereria artesal
 
-First, run the development server:
+## 🚀 Tecnologisa Ultilizadas 
+
+* ***[Next.js](https://nextjs.org/)*** - Framework React para aplicações web
+* ***[TypeScrip]()*** - Tipagem estática para JavaScript
+* ***[TailwindCSS]()*** - Framework CSS utilitário para estilização
+
+## 🧠 Funcionalidades
+
+* 📋 Visualizar o cardápio online
+* 🍔 Fazer pedidos personalizados
+* ➕➖ Adicionar ou remover quantidades de itens
+* ⏰ Mostrar quando o estabelecimento está aberto ou fechado
+* 📤 Permite envio de pedidos apenas no horário de funcionamento
+
+## 🔧 Como rodar o projeto localmente
+
+1. Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+git clone https://github.com/jonathasoficial/Gordinhos-Burguer.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Acesse o diretório:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
 
-## Learn More
+cd Gordinhos-Burguer
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Instale as dependências:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
 
-## Deploy on Vercel
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Execute o projeto:
+
+```bash
+
+npm run dev
+```
+
+5. Acesse no navegador:
+
+```arduino
+
+https://localhost:3000
+```
+
+## 👨‍💻 Autores
+
+* [Matheus Mota](https://www.instagram.com/matheus_0457?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
+* [Jonathas (Setsuna)](https://www.instagram.com/jonathas_oficialll/?__pwa=1)
+
+## 📄 Licença
+
+Este projeto é de código proprietário. **Todos os direitos reservados.**  
+É proibido copiar, modificar, distribuir ou utilizar este código sem autorização expressa dos autores.  
+
+© 2025 Matheus Mota e Jonathas (Setsuna)
