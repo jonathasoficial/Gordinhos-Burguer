@@ -76,7 +76,8 @@ export default function ModalCart({
 
 *Endereço de Entrega:*
 ${address}
-    `;
+        `;
+
         const phone = "5571996916197";
         const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
@@ -141,7 +142,9 @@ ${address}
                             </div>
                         ))}
 
-                        <p className="font-bold text-right">Total: R$ {total.toFixed(2)}</p>
+                        <p className="font-bold text-right">
+                            Total: R$ {total.toFixed(2)}
+                        </p>
                     </div>
                 )}
 
