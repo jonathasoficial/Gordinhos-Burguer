@@ -5,28 +5,28 @@
             "name": "Hamburguer da Casa",
             "description": "Alface, tomate, Hamburguer 100g, queijo cheddar, bacon e maiones de alho",
             "price": 20.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/hamburguer-casa.png"
         },
         {
             "id": 2,
             "name": "Smash Burguer",
             "description": "Hamburguer 100g, queijo cheddar, cebola caramelizada, farofa de bacon e maionese de alho",
             "price": 22.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/smash.png"
         },
         {
             "id": 3,
             "name": "X-Bacon",
-            "description": "Alface, tomate, Hamburguer 100g, presunto, musarela, bacon e maionese de alho",
+            "description": "Alface, tomate, Hamburguer 100g, musarela, bacon e maionese de alho",
             "price": 22.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/x-bacon.png"
         },
         {
             "id": 4,
             "name": "Gordinho Simples",
             "description": "Alface, tomate, hsmburguer 100g, queijo musarela, queijo chedda, molho especial, cebola caramelizada e maionese de alho",
             "price": 24.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/gordinho-simples.png"
         }
     ],
     "hamburguerEspecial": [
@@ -42,14 +42,21 @@
             "name": "Smash Duplo",
             "description": "2 hamburgues 100g, queijo cheddar, cebola caramelizada, farofa de bacon ",
             "price": 28.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/smash-duplo.png"
         },
         {
             "id": 7,
             "name": "Maximo Gordinho",
             "description": "Alface, tomate, 2 carnes de 180g, queijo mussarela, queijo cheddar, bacon duplo, ",
             "price": 30.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/maximo-gordinho.png"
+        },
+        {
+            "id": 8,
+            "name": "Nordestino",
+            "description": "carne 150g, queijo coalho, carne de sol, molho barbecue, geleia agridoce de pimentas vermelhas, pão brioche",
+            "price": 30.00,
+            "image": "/nordestino-2.jpg"
         }
     ]
 }
