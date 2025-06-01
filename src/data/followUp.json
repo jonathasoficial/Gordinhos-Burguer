@@ -4,19 +4,19 @@
             "id": 8,
             "name": "Batata Frita 100g",
             "price": 7.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/batata-100g.png"
         },
         {
             "id": 9,
             "name": "Batata Frita 500g",
             "price": 10.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/batata-500g.png"
         },
         {
             "id": 10,
             "name": "Batata Frita queijo e bacon",
             "price": 15.00,
-            "image": "/x-bacon_turbo.png"
+            "image": "/batata-com-queijo.png"
         }
     ]
 }
