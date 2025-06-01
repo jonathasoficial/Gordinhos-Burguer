@@ -46,17 +46,17 @@
         },
         {
             "id": 7,
+            "name": "Nordestino",
+            "description": "carne 150g, queijo coalho, carne de sol, molho barbecue, geleia agridoce de pimentas vermelhas, pão brioche",
+            "price": 29.00,
+            "image": "/nordestino-2.jpg"
+        },
+        {
+            "id": 8,
             "name": "Maximo Gordinho",
             "description": "Alface, tomate, 2 carnes de 180g, queijo mussarela, queijo cheddar, bacon duplo, ",
             "price": 30.00,
             "image": "/maximo-gordinho.png"
-        },
-        {
-            "id": 8,
-            "name": "Nordestino",
-            "description": "carne 150g, queijo coalho, carne de sol, molho barbecue, geleia agridoce de pimentas vermelhas, pão brioche",
-            "price": 30.00,
-            "image": "/nordestino-2.jpg"
         }
     ]
 }
