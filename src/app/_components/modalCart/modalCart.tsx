@@ -5,6 +5,7 @@ import { CartItem } from "@/types/products";
 import { FaTimes, FaPlus, FaMinus, FaTrash } from "react-icons/fa";
 import Toastify from "toastify-js";
 import "toastify-js/src/toastify.css";
+import { isHamburgueriaOpen } from "@/lib/isOpen";
 
 type ModalCartProps = {
     isOpen: boolean;
@@ -52,6 +53,14 @@ export default function ModalCart({
     };
 
     const handleSendOrder = () => {
+        if (!isHamburgueriaOpen()) {
+            notify(
+                "Estamos fechados no momento! Faça seu pedido no horário de funcionamento.",
+                "#ef4444"
+            );
+            return;
+        }
+
         if (cartItems.length === 0) {
             notify("Seu carrinho está vazio!", "#ef4444");
             return;
@@ -166,7 +175,11 @@ ${address}
 
                     <button
                         onClick={handleSendOrder}
-                        className="bg-green-500 text-white px-4 py-2 rounded"
+                        className={`px-4 py-2 rounded text-white ${isHamburgueriaOpen()
+                                ? "bg-green-500 hover:bg-green-600"
+                                : "bg-gray-400 cursor-not-allowed"
+                            }`}
+                        disabled={!isHamburgueriaOpen()}
                     >
                         Finalizar pedido
                     </button>

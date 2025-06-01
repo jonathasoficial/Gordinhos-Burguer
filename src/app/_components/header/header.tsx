@@ -2,33 +2,17 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { isHamburgueriaOpen } from "@/lib/isOpen"
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
-        const checkIsOpen = () => {
-            const now = new Date();
-            const brasilDate = new Date(
-                now.toLocaleString("en-US", { timeZone: "America/Sao_Paulo" })
-            );
-
-            const day = brasilDate.getDay(); // 0 = Domingo, 6 = Sábado
-            const hour = brasilDate.getHours();
-            const minute = brasilDate.getMinutes();
-
-            const isOpenDay = day >= 2 && day <= 6;
-            const afterOpen = hour > 18 || (hour === 18 && minute >= 30);
-            const beforeClose = hour < 23 || (hour === 23 && minute === 0);
-
-            return isOpenDay && afterOpen && beforeClose;
-        };
-
-        setIsOpen(checkIsOpen());
+        setIsOpen(isHamburgueriaOpen());
 
         const interval = setInterval(() => {
-            setIsOpen(checkIsOpen());
-        }, 60000); // Atualiza a cada 1 minuto
+            setIsOpen(isHamburgueriaOpen());
+        }, 60000);
 
         return () => clearInterval(interval);
     }, []);
