@@ -5,8 +5,8 @@ Sistema de gestão para hamburguereria artesal
 ## 🚀 Tecnologisa Ultilizadas 
 
 * ***[Next.js](https://nextjs.org/)*** - Framework React para aplicações web
-* ***[TypeScrip]()*** - Tipagem estática para JavaScript
-* ***[TailwindCSS]()*** - Framework CSS utilitário para estilização
+* ***[TypeScrip](https://www.typescriptlang.org/)*** - Tipagem estática para JavaScript
+* ***[TailwindCSS](https://tailwindcss.com/)*** - Framework CSS utilitário para estilização
 
 ## 🧠 Funcionalidades
 
