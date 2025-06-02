@@ -1,6 +1,6 @@
 # 🍔 Gordinhos Burguer
 
-Sistema de gestão para hamburguereria artesal
+Sistema de gestão para hamburgueria artesal
 
 ## 🚀 Tecnologisa Ultilizadas 
 
@@ -63,7 +63,8 @@ https://localhost:3000
 
 ## 📄 Licença
 
-Este projeto é de código proprietário. **Todos os direitos reservados.**  
-É proibido copiar, modificar, distribuir ou utilizar este código sem autorização expressa dos autores.  
+Este projeto é de código proprietário. Todos os direitos reservados.
+O código está disponível apenas para demonstração e portfólio.
+É proibido copiar, modificar, distribuir ou utilizar este código para fins comerciais sem autorização expressa dos autores.  
 
 © 2025 Matheus Mota e Jonathas (Setsuna)
